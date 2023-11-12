@@ -160,3 +160,4 @@ class ConversorDeMoneda:
 
         except requests.exceptions.RequestException as e:
             return f"Error en la solicitud a la API. Código de respuesta: {response.status_code}"
+
