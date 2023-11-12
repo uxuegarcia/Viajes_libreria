@@ -87,11 +87,11 @@ class DestinoInfo:
             
 
 class CalculadoraDeDistancia(DestinoInfo):
-    def __init__(self, lugar1, lugar2, api_key):
+    def __init__(self, lugar1, lugar2):
         self.lugar1 = lugar1
         self.lugar2 = lugar2
         self.earth_radius = 6371  # Radio promedio de la Tierra en kilómetros
-        super().__init__(api_key)
+        self.api_key = 'f7798c316c84f5f6cfb22b5c09464ecc'
 
     def validar_coordenadas(self, lat, lon):
         try:
@@ -160,4 +160,3 @@ class ConversorDeMoneda:
 
         except requests.exceptions.RequestException as e:
             return f"Error en la solicitud a la API. Código de respuesta: {response.status_code}"
-
