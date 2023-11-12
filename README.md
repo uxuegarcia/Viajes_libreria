@@ -1,9 +1,6 @@
 # Viajes_libreria
 Esta es una librería que proporciona información de interes de lugares. Con el objetivo de facilitar la obtencion de informacion para viajeros como informacion meteorológica, turística, monetaria y una calculadora de distancia entre dos lugares.
 
-## Instalación
-Puedes instalar la librería usando pip: pip install LibreriaViajes_UxueAinara
-
 ## Uso
 from LibreriaViajes_UxueAinara import DestinoInfo, CalculadoraDeDistancia, ConversorDeMoneda
 
