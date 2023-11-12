@@ -87,7 +87,7 @@ class DestinoInfo:
             
 
 class CalculadoraDeDistancia(DestinoInfo):
-    def __init__(self, lugar1, lugar2):
+    def __init__(self, lugar1, lugar2, api_key):
         self.lugar1 = lugar1
         self.lugar2 = lugar2
         self.earth_radius = 6371  # Radio promedio de la Tierra en kilómetros
